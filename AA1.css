@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-  }
   
   body {
     font-family: "Work Sans", sans-serif;
@@ -45,7 +42,9 @@ nav {
     align-content: center;
 }
 .one .log_title {
+    display: flex;
     font-size: 26px;
+    align-items: center;
 }
 .one .log_title span {
     color: #FFA500;
@@ -88,11 +87,7 @@ main {
 .lef_rig {
     display: flex; 
      justify-content: space-between;
-    /* gap: 40px; */
 }
-/* .lef_rig .left {
-    
-} */
 .lef_rig .right {
     width: 55%;
     display: flex;
@@ -119,9 +114,6 @@ main {
 .lef_rig .left h1 {
     font-size: 38px;
     max-width: 350px;
-}
-.lef_rig .left h1,p {
-    margin-bottom: 30px;
 }
 .lef_rig .left input {
     padding: 10px 135px 10px 5px;
